@@ -1,0 +1,5 @@
+import { tambah, bagi } from `./ operasi.js ;
+
+// contoh penggunaan fungsi tambah dan bagi:
+console.log("hasil tambah:" , tambah(5, 3)); // output:8
+console.log("hasil bagi:" , bagi(10, 2)); // output:5

@@ -1,0 +1,8 @@
+//Daftar nama peserta yang lulus (filter dan map).
+const pesertaLulus = peserta.filter((p) => p.nilai > 70).map((p) => p.nama);
+console.log ("Daftar peserta yang lulus:" , pesertaLulus);
+
+//Rata - rata nilai per kelas.
+const rataWeb = peserta.filter((p) => p.kelas === "Web").reduce((j, p) => j + p.nilai, 0) /
+     peserta.filter((p) => p.kelas === "Web").length;
+const rataData = peserta.filter(())     

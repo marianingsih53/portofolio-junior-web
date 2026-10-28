@@ -1,0 +1,12 @@
+// Penentu bilangan ganjil atau genap dan positif/negatifnol 
+// @.start, let nilai, status1, status2
+// 1. input nilai
+// 2. if (nilai % 2)***0 {status1="genap"} else {status1="ganjil"}
+// 3. cetak (status1)
+// 4. if(nilai > 0) status2="positif"}else
+//     if(nilai < 0) {status2 = "negatif"} else {status2="nol"}
+// 5. cetak (status2)
+// end 
+
+tarif parkir: 2 jam pertama Rp.3000, tiap jam berikutnya Rp. 2000, maksimum Rp. 15.000 per hari
+0. start , let durasi jam, sisajam, totalhari, bayar
